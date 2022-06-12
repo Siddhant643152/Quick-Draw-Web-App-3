@@ -1,0 +1,52 @@
+body{
+    background-color: yellow;
+}
+.heading2{
+color: red;
+font-weight: bold;
+}
+#sketch_to_draw {
+    color: brown;
+    font-weight: bolder;
+}
+.span1{
+    color: red;
+font-weight: bold;
+}
+.span_1 {
+    color: brown;
+    font-weight: bolder;
+}
+#score{
+font-size: xx-large;
+color: black;
+font-weight: bold;
+float: left;
+}
+#time{
+    font-size: xx-large;
+    color: black;
+    font-weight: bold;
+    float: right;
+}
+h1{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+#show_sketch{
+    float: right;
+    font-size: medium;
+}
+canvas{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: 10px 10px 20px red;
+    animation: color-change 5s infinite;
+}
+@keyframes color-change {
+    from {box-shadow: 10px 10px 20px red;}
+    to {box-shadow: 10px 10px 20px green;}
+}
